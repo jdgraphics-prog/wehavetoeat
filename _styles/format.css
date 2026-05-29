@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+
+}
+h2 {
+    text-align: center;
+    padding: 1em;
+}
+nav {
+    margin: 5px;
+}
+
+nav ul{
+list-style-type: none;
+display:flex;
+justify-content: center;
+}
+
+nav ul li {
+    padding: 1px 20px;
+}
+main img {
+    width: auto;
+    height: 20rem;
+    float: left;
+    display: block;
+    margin-right: 2em;
+    padding: 2em;
+}
+main {
+    flex: 1;
+}
+
+p {
+    padding: 1em;
+}
+.container {
+  padding-bottom: 4em;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    height:250px;
+}
+.center{
+    text-align: center;
+}
+footer {
+
+    padding: 2em;
+    text-align: center;
+    margin-top: auto;
+}
+.bigcontainer {
+    padding-bottom: 7em;    
+}
+
+.featured-image {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em auto;
+}
+.featured-image img {
+    width: 100%;
+    height: auto;
+    float: none;
+    margin-right: 0;
+    padding: 0;
+    
+}
+.big-image {
+    width: 30%;
+    height: auto;
+   
+}
+.big-image img {
+    width: 100%;
+    height: auto;
+    margin-right: 1em;
+    padding: 1em;
+    
+}
+
+.featured-image figcaption {
+    padding: 1em;
+    text-align: center;
+   
+}
+.thumbnail img {
+    width: auto;
+    height: 20rem;
+    float: none;
+    margin-right: 0;
+    padding: 0;
+}
+.thumbnail figcaption {
+    padding: 0.5em 0;
+}
+.thumbnail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+.thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.circle_back {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.circle_back a {
+    text-decoration: none;
+    padding: 0.5em 0.7em;
+    display: inline-block;
+}
+.right {
+    float: right;
+}
+.right img{
+    float: right;
+}
